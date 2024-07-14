@@ -4,7 +4,7 @@
 // and assign it the value 25.
 // Write your code below
 
-
+let currentTemperature = 25;
 
 console.log(`The current temperature is: `, currentTemperature);
 // Expected Output: The current temperature is: 25
@@ -13,7 +13,7 @@ console.log(`The current temperature is: `, currentTemperature);
 // Step 2: Update the value of 'currentTemperature' to 30.
 // Write your code below
 
-
+currentTemperature = 30;
 
 console.log(`Now the current temperature is: `,currentTemperature);
 // Expected Output: Now the current temperature is: 30
