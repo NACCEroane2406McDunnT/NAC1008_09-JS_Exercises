@@ -4,7 +4,9 @@
   // Hint 1: The return should be a concatenation of the two parameters.
   // Hint 2: const functionName = (x, y) => { return ...; }
 // Write your code below
-
+function greetPerson (first_name,last_name){
+  return "Greetings my worthy friend, ".concat(first_name," ",last_name);
+}
 
 
 console.log(greetPerson('John', 'Doe'));

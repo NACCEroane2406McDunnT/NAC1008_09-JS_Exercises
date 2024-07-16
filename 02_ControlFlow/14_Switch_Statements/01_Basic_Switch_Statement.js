@@ -3,7 +3,7 @@
 // Step 1: Declare a variable 'dayNumber' with the function value 'new Date().getDay()'.
 // Write your code below
 
-
+var dayNumber= new Date().getDay();
 // Don't change the code declaration below
 let dayName = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][dayNumber];
 console.log(`Today it is ${dayName}`)
@@ -19,22 +19,22 @@ console.log(`Today it is ${dayName}`)
   // console.log(`It's the weekend`) if it is Sunday,
   // and console.log(`Invalid day`) otherwise (default).
 // Write your code below
-switch () {
-  case "":
+switch (dayNumber) {
+  case 0:console.log(`It's the weekend`) ;
     break;
-  case "":
+  case 1:console.log(`It's the start of the week`);
     break;
-  case "":
+  case 2:console.log(`It's the middle of the week`);
     break;
-  case "":
+  case 3:console.log(`It's the middle of the week`);
     break;
-  case "":
+  case 4:console.log(`It's the middle of the week`);
     break;
-  case "":
+  case 5:console.log(`It's almost the weekend`)
     break;
-  case "":
+  case 6:console.log(`It's the weekend`)
     break;
-  default:
+  default: console.log(`Invalid day`) ;
 }
 
 

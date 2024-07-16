@@ -2,16 +2,16 @@
 
 // Step 1: Declare a variable named 'quantity' with the value 5.
 // Write your code below
-
+var quantity = 5;
 
 // Step 2: Declare another variable named 'pricePerUnit' with the value 25.
 // Write your code below
-
+var pricePerUnit = 25;
 
 // Step 3: Declare another variable named 'totalPrice' and assign it the value of the formula: quantity * pricePerUnit.
 // Write your code below
 
-
+var totalPrice = quantity * pricePerUnit;
 
 console.log(`I have ${quantity} shirts and each one costs ${pricePerUnit}. The total price is $${totalPrice}.`);
 // Expected Output: I have 5 shirts and each one costs 25. The total price is $125.

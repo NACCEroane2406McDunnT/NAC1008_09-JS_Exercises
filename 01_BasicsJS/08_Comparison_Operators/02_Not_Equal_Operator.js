@@ -3,12 +3,12 @@
 // Step 1: Declare two variables, 'valueA' with the value 'apple' and 'valueB' with the value 'orange'.
 // Write your code below
 
-
+var valueA='apple',valueB= 'orange';
 // Step 2: Declare a variable named 'isNotEqual' and 
     // use the not equal operator '!=' to check if 'valueA' and 'valueB' are not equal.
 // Write your code below
 
-
+isNotEqual = valueA != valueB;
 
 console.log(isNotEqual);
 // Expected Output: true

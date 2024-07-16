@@ -3,7 +3,7 @@
 // Step 1: Declare a variable 'isRaining' with the value 'true'.
 // Write your code below
 
-
+var isRaining=true;
 // Step 2: Use the ternary operator to set a variable 'takeUmbrella' to a string,
     // 'Take an umbrella' if it is raining,
     // 'Enjoy the weather' othewise.
@@ -11,7 +11,7 @@
     // variable = (condition) ? value1 if true : value2 if false
 // Write your code below
 
-
+takeUmbrella = isRaining ? 'Take an umbrella':'Enjoy the weather';
 console.log(takeUmbrella);
 // Expected Output: Take an umbrella
 

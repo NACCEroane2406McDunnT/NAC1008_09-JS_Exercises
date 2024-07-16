@@ -4,7 +4,8 @@
 // Write your code below
 
 
-
+// var isSunny = true;
+var isSunny = false;
 // Don't change the code below
 isSunny === true 
     ? console.log(`It's sunny today`) 

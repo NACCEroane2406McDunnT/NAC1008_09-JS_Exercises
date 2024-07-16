@@ -5,6 +5,11 @@
     // Hint: (x, y = 'string') { return ...; }
 // Write your code below
 
+function greetUser (first_name){
+    const greeting='Hello ,';
+    return greeting.concat(first_name);
+  }
+  
 
 
 console.log(greetUser('John'));

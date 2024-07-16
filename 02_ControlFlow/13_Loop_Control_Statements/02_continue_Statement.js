@@ -3,16 +3,16 @@
 // Step 1: Declare a variable 'count' with the value 0.
 // Write your code below
 
-
+var count=0;
 // Step 2: Use a for loop to iterate a count from 0 to 4 and log each iteration.
   // Add a continue statement to skip the iteration if the iteration is 2.
   // Hint: for (let x=0; x<5; x++) { if (condition) { continue; } log }
 // Write your code below
-for () {
-  if () {
+for (count=0;count<5;count++) {
+  if (count === 2) {
     continue;
   }
-  console.log('Iteration ' + variableName);
+  console.log('Iteration ' + count);
 }
 
 

@@ -3,14 +3,14 @@
 // Step 1: Declare two variables, 'numA' with the value 20 and 'numB' with the value 8.
 // Write your code below
 
-
+var numA= 20,numB= 8;
 // Step 2: Declare a variable named 'difference' that equals the difference of 'numA' and 'numB'.
     // Hint: 'You can subtract numbers with the '-' operator.'
 // Write your code below
 
 
-
-console.log(`The difference between 'numA' and 'numB' is: ${difference}`);
+difference = numA - numB;
+console.log(`The difference between 'numA'(${numA}) and 'numB'(${numB}) is: ${difference}`);
 // Expected Output: The difference between 'numA' and 'numB' is: 12
 
 

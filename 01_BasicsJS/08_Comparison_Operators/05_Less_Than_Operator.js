@@ -3,13 +3,12 @@
 // Step 1: Declare two variables, 'quantityA' with the value 7 and 'quantityB' with the value 12.
 // Write your code below
 
-
+var quantityA= 7, quantityB= 12;
 // Step 2: Declare a variable named 'isLessThan' and 
     // use the less than operator '<' to check if 'quantityA' is less than 'quantityB'.
 // Write your code below
 
-
-
+isLessThan = quantityA < quantityB;
 console.log(isLessThan);
 // Expected Output: true
 

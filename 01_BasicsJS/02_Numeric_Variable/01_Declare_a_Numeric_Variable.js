@@ -3,7 +3,7 @@
 // Step 1: Declare a numeric variable named 'price' and assign it the value 20
 // Write your code below
 
-
+var price = 20;
 
 console.log(`The price of this shirt is ${price}`);
 // Expected Output: The price of this shirt is 20

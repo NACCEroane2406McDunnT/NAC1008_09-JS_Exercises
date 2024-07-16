@@ -3,12 +3,12 @@
 // Step 1: Declare two variables, 'priceA' with the value 25 and 'priceB' with the value 25.
 // Write your code below
 
-
+priceA= 25, priceB= 25;
 // Step 2: Declare a variable named 'isGreaterOrEqual' and 
     // use the greater than or equal to operator '>=' to check if 'priceA' is greater than or equal to 'priceB'.
 // Write your code below
 
-
+isGreaterOrEqual = priceA>=priceB;
 
 console.log(isGreaterOrEqual);
 // Expected Output: true

@@ -3,11 +3,11 @@
 // Step 1: Declare a variable 'isRaining' with the value 'true'.
 // Write your code below
 
-
+var isRaining=true;
 // Step 2: Use an if statement to check if it is raining, and if so, console.log(`Take an umbrella`).
 // Write your code below
-if () {
-    
+if (isRaining) {
+    console.log(`Take an umbrella`)
 }
 
 

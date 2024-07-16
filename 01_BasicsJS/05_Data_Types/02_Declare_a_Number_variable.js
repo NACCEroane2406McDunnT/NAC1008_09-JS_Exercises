@@ -4,7 +4,7 @@
 // Write your code below
 
 
-
+var numApples = 5;
 // Don't change the code below
 numApples === 5 
     ? console.log(`I have ${numApples} apples in my bag.`)

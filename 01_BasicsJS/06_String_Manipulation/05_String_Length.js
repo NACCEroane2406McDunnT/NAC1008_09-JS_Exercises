@@ -3,14 +3,16 @@
 // Step 1: Declare a variable named 'message' with the value 'The quick brown fox jumps over the lazy dog.'.
 // Write your code below
 
+var message= 'The quick brown fox jumps over the lazy dog.';
 
 // Step 2: Declare a variable named 'stringLength' and assign it the length of the 'message' variable.
     // Hint: Use the '.length' property. 
 // Write your code below
 
 
+var stringLength = message.length;
 
-console.log(`The length of the 'message' is: ${stringLength}`);
+console.log(`The length of the 'message'(${message} ) is: ${stringLength}`);
 // Expected Output: (length of the 'longString' text)
 
 

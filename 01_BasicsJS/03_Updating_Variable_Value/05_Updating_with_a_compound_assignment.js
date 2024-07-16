@@ -3,11 +3,11 @@
 // Declare a 'let' variable named 'totalScore' with the value 100.
 // Write your code below
 
-
+let totalScore = 100;
 // Update the value of 'totalScore' by multiplying it by 1.5 using the compound assignment (*= operator).
 // Write your code below
 
-
+totalScore *= 1.5;
 
 console.log(`The total score is: ${totalScore}`);
 // Expected Output: The total score is: 150

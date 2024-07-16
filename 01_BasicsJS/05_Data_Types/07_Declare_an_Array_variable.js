@@ -3,7 +3,7 @@
 // Step 1: Declare an array named 'fruits' with values 'Apple', 'Banana', and 'Orange'.
 // Write your code below
 
-
+let fruits = [ "Apple", 'Banana', 'Orange' ];
 
 console.log(fruits);
 // Expected Output: ['Apple', 'Banana', 'Orange']

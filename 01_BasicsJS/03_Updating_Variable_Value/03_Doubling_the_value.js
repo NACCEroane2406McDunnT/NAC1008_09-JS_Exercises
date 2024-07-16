@@ -3,11 +3,11 @@
 // Step 1: Declare a let variable named 'counter' with the value 8.
 // Write your code below
 
-
+let counter = 8;
 // Step 2: Multiply the value of 'counter' by 2 using the *= operator.
 // Write your code below
 
-
+counter *= 2;
 
 console.log(`The value of counter is ${counter}`);
 // Expected Output: The value of counter is 16

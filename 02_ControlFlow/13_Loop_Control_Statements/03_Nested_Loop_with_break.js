@@ -3,22 +3,23 @@
 // Step 1: Declare a variable 'row' with the value 0.
 // Write your code below
 
-
+var row=0;
 // Step 2: Declare a variable 'column' with the value 0.
 // Write your code below
 
-
+var column=0;
 // Step 3: Use nested for loops to iterate over rows and columns.
   // Add a break statement to terminate the outer loop when the row is 2 and the column is 1.
   // Hint: for (let x=0; x<3; x++) { for (let y=0; y<2; y++) { if (condition1 && condition2) { break; } log } }
 // Write your code below
-for () {
-  for () {
-    if () {
+for (row=0;row<5;row++) {
+    if (row===2 ) {
       break;
-    }
+    }for (column=0;column<2;column++) {
+
     console.log('Row ' + row + ', Column ' + column);
-  }
+  } 
+
 }
 
 

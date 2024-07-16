@@ -3,11 +3,11 @@
 // Step 1: Declare a variable 'name' with your name as a string value.
 // Write your code below
 
-
+var name = "Tom"
 // Step 2: Declare a variable 'greeting' with the value of 'Hello, ' + name + '! How are you today?'
 // Write your code below
 
-
+var greeting = "Hello, " + name + "! How are you today?"
 
 console.log(greeting);
 // Expected Output: "Hello, Alice! How are you today?"

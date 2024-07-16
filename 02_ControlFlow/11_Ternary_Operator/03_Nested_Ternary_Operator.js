@@ -3,7 +3,7 @@
 // Step 1: Declare two variables, 'isWeekend' with the value 'false' and 'time' with the value 'morning'.
 // Write your code below
 
-
+var isWeekend=false, time='morning';
 // Step 2: Use nested ternary operators to set a variable 'greeting' to
     // 'Enjoy your weekend' if it is the weekend,
     // and if not, 
@@ -13,7 +13,7 @@
     // variable = (condition) ? value1 if true : (new condition) ? value2 if true : value3 if false
 // Write your code below
 
-
+greeting = isWeekend ? 'Enjoy your weekend' : time == 'morning' ? 'Good Morning' : 'Good Day';
 console.log(greeting);
 // Expected Output: Good morning
 

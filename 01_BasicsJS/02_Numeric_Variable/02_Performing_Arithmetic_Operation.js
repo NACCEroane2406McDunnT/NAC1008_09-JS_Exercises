@@ -2,12 +2,13 @@
 
 // Step 1: Declare two numeric variables, 'numA' with the value 15 and 'numB' with the value 7.
 // Write your code below
-
+var numA = 15;
+var numB = 7;
 
 // Step 2: Perform an addition operation and store the result in a variable named 'sum'.
 // Write your code below
 
-
+sum = numA + numB;
 
 console.log(`The sum of numA and numB is: ${sum}`);
 // Expected Output: The sum of numA and numB is: 22

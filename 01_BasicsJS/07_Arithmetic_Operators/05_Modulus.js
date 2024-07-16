@@ -3,13 +3,13 @@
 // Step 1: Declare two variables, 'dividend' with the value 27 and 'divisor' with the value 4.
 // Write your code below
 
-
+var dividend= 27, divisor= 4;
 // Step 2: Declare a variable named 'remainder' and find the remainder when 'dividend' is divided by 'divisor'.
 // Write your code below
 
+remainder = dividend % divisor;
 
-
-console.log(`The remainder of 'dividend' divided by 'divisor' is: `, remainder);
+console.log(`The remainder of 'dividend'(${dividend}) divided by 'divisor'(${divisor}) is: `, remainder);
 // Expected Output: The remainder of 'dividend' divided by 'divisor' is:  3
 
 

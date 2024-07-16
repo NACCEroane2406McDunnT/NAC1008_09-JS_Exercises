@@ -4,7 +4,8 @@
 // Write your code below
 
 
-
+// var nullVar = null;
+var nullVar = 'junk';
 // Don't change the code below
 nullVar === null 
     ? console.log(`nullVar is null`) 

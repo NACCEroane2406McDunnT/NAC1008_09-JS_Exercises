@@ -5,7 +5,11 @@
   // Remember, an object is between curly braces.
 // Write your code below
 
-
+let person = {
+  firstname: 'John',
+  age: 30,
+  isActive: true
+};
 
 console.log(person);
 // Expected Output: { name: 'John', age: 28, isActive: true }

@@ -3,16 +3,16 @@
 // Step 1: Declare a variable named 'text' with the string value of 'The score is '.
 // Write your code below
 
-
+var text = "The score is ";
 // Step 2: Declare another variable named 'score' with the value 100.
 // Write your code below
 
-
+var score = 100;
 // Step 3: Declare another variable named 'message' and assign it the value of the formula: text + score.
 // Write your code below
 
 
-
+message = text + score;
 console.log(message);
 // Expected Output: The score is 100
 

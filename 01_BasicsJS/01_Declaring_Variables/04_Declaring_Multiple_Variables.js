@@ -5,7 +5,7 @@
     // The variables declaration should be on the same line. 
 // Write your code below
 
-
+let firstname="John Doe", age=30, country="Canada";
 
 console.log(`I know ${firstname}, he is ${age} years old and he lives in ${country}.`);
 // Expected Output: I know John Doe, he is 30 years old and he lives in Canada.

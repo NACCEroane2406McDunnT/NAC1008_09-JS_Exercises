@@ -3,8 +3,8 @@
 // Step 1: Declare a 'let' variable named 'undefinedVar' without assigning it a value.
 // Write your code below
 
-
-
+let undefinedVar;
+// let undefinedVar = "junk";
 // Don't change the code below
 undefinedVar === undefined 
     ? console.log(`undefinedVar is undefined`) 

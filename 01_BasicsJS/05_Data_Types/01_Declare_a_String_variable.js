@@ -4,7 +4,7 @@
 // Write your code below
 
 
-
+var favoriteColor = 'blue'; // needed ' not ""
 // Don't change the code below
 favoriteColor === 'blue' 
     ? console.log(`My favorite color is ${favoriteColor}`) 

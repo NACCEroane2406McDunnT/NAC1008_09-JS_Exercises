@@ -3,22 +3,22 @@
 // Step 1: Declare a variable 'month' with the value 'August'.
 // Write your code below
 
-
+var month='August';
 // Step 2: Use a switch statement to log different messages based on the month.
   // if it's 'January', console.log(`It's the beginning of the year.`)
   // if it's 'August', 'September', or 'October', console.log(`It's the second half of the year.`)
   // if it's any other month, console.log(`It's a different month.`)
 // Write your code below
-switch () {
-  case '':
+switch (month) {
+  case 'January':console.log(`It's the beginning of the year.`);
     
     break;
-  case '':
-  case '':
-  case '':
+  case 'August':
+  case 'Seotember':
+  case 'October':console.log(`It's the second half of the year.`);
     
     break;
-  default:
+  default:console.log(`It's a different month.`);
     
 }
 // Expected Output: It's the second half of the year.

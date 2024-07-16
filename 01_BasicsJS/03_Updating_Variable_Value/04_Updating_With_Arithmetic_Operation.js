@@ -3,15 +3,15 @@
 // Step 1: Declare a let variable named 'currentValue' with the value 15.
 // Write your code below
 
-
+let currentValue = 15;
 // Step 2: Declare another variable named 'increment' with the value 5.
 // Write your code below
 
-
+let increment = 5;
 // Step 3: Update 'currentValue' by adding the value of 'increment' using the += operator.
 // Write your code below
 
-
+currentValue += increment;
 
 console.log(`The current value is: ${currentValue}`);
 // Expected Output: The current value is: 20

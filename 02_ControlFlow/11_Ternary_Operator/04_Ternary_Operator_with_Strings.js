@@ -3,13 +3,13 @@
 // Step 1: Declare a variable 'userType' with the value 'admin'.
 // Write your code below
 
-
+var userType='admin';
 // Step 2: Use the ternary operator to set a variable 'isAdmin' to
     // true, if the user type is 'admin' 
     // false, otherwise.
 // Write your code below
 
-
+isAdmin = userType=='admin' ? true : false;
 console.log(isAdmin);
 // Expected Output: true
 
